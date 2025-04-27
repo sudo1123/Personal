@@ -1,0 +1,23 @@
+import turtle
+myPen=turtle.Pen()
+myPen.speed(0)
+def square(x):
+    for i in range(3):
+        myPen.forward(x)
+        myPen.left(120)
+square(55)
+myPen.penup()
+myPen.goto(80,9)
+myPen.pendown()
+square(45)
+myPen.penup()
+myPen.goto(100,9)
+myPen.pendown()
+square(99)
+myPen.penup()
+myPen.goto(10,7)
+myPen.pendown()
+square(90)
+myPen.penup()
+myPen.goto(8,4)
+myPen.pendown()

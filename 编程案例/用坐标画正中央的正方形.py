@@ -1,0 +1,16 @@
+import turtle
+myPen=turtle.Pen()
+myPen.speed()
+big=5
+myPen.penup()
+myPen.goto(-50,-50)
+myPen.pendown()
+myPen.dot(big)
+myPen.goto(50,-50)
+myPen.dot(big)
+myPen.goto(50,50)
+myPen.dot(big)
+myPen.goto(-50,50)
+myPen.dot(big)
+myPen.goto(-50,-50)
+myPen.dot(big)

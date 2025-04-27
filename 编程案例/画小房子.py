@@ -1,0 +1,25 @@
+import turtle
+myPen=turtle.Pen()
+#创建画笔
+lenth_1=100
+lenth_2=150
+angle_1=120
+angle_2=90
+angle_3=180
+#创建变量
+myPen.forward(lenth_2)
+myPen.left(angle_2)
+myPen.forward(lenth_1)
+myPen.left(angle_2)
+myPen.forward(lenth_2)
+myPen.left(angle_2)
+myPen.forward(lenth_1)
+myPen.right(angle_3)
+myPen.forward(lenth_1)
+myPen.right(angle_2)
+myPen.forward(lenth_2)
+myPen.left(angle_1)
+myPen.forward(lenth_2)
+myPen.left(angle_1)
+myPen.forward(lenth_2)
+#运行代码

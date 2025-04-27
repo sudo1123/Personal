@@ -1,0 +1,10 @@
+import turtle
+myPen=turtle.Pen()
+myPen.circle(50)
+myPen.left(90)
+myPen.circle(50)
+myPen.left(90)
+myPen.circle(50)
+myPen.left(90)
+myPen.circle(50)
+myPen.left(90)
